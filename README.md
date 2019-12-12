@@ -26,7 +26,7 @@ Use it as follows:
   end
 ```
 
-You may want to define callbacks that ignore some wilters:
+You may want to define callbacks that ignore some filters:
 
 ```elixir
   use WithFilters, empty_for: ["some_filter"]
@@ -43,7 +43,7 @@ dependencies in `mix.exs`:
 ```elixir
 def deps do
   [
-    {:with_filters, github: "Elonsoft/with_wilters", branch: "master"}
+    {:with_filters, github: "Elonsoft/with_filters", branch: "master"}
   ]
 end
 ```
