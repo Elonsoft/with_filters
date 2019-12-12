@@ -4,7 +4,7 @@ Helper for list query filters.
 
 Use it as follows:
 
-```
+```elixir
   use WithFilters
 
   def list_users() do
@@ -28,7 +28,7 @@ Use it as follows:
 
 You may want to define callbacks that ignore some wilters:
 
-```
+```elixir
   use WithFilters, empty_for: ["some_filter"]
 ```
 
